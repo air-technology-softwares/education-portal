@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="./javaScript.js"></script>
+
+        <title>Air Technology</title>
+        <link rel="icon" href="https://image.airtechnology.in/icon.png"/>
+        <link rel="styleSheet" href="./Style.css"/>
+    </head>
+    <body>
+        <div class="login" id="login">
+        <div class="title">
+            <h1>Login</h1>
+        </div>
+
+        <div class="cont">
+            <br>
+            <br>
+            <input class="formate" id="lemail" placeholder="Email" type="email" required/>
+            <br>
+            <br>
+            <br>
+            <input class="formate" id="lpass" placeholder="Password" type="password" required/>
+            <br>
+            <br>
+            <br>
+            <button class="formate" onclick="userLogin()">Login</button>
+            <br>
+            <br>
+            <a onclick="fswitch()">Forgot Your Password?</a>
+            <br>
+            <br>
+            <a onclick="cswitch()">Do Not Have An Account?</a>
+        </div>
+    </div>
+
+    <div class="forgot" id="forgot">
+        <div class="title">
+            <h1>Forgot Password</h1>
+        </div>
+
+        <div class="cont">
+            <br>
+            <br>
+            <input class="formate" id="femail" placeholder="Email" type="email" required/>
+            <br>
+            <br>
+            <br>
+            <button class="formate" onclick="userForgot()">Send Link</button>
+            <br>
+            <br>
+            <a onclick="fswitch()">Back To Login</a>
+        </div>
+
+    </div>
+
+    <div class="create" id="create">
+
+        <div class="title">
+            <h1>Create User</h1>
+        </div>
+
+        <div class="cont">
+            <br>
+            <br>
+            <input class="formate" id="cemail" placeholder="Email" type="email" required/>
+            <br>
+            <br>
+            <br>
+            <input class="formate" id="cname" placeholder="Name" type="text" required/>
+            <br>
+            <br>
+            <br>
+            <input class="formate" id="cphone" placeholder="Phone" type="number" required/>
+            <br>
+            <br>
+            <br>
+            <input class="formate" id="cpass" placeholder="Password" type="password" required/>
+            <br>
+            <br>
+            <br>
+            <button class="formate" onclick="userCreate()">Create</button>
+            <br>
+            <br>
+            <a onclick="cswitch()">Back To Login</a>
+        </div>
+
+    </div>
+    </body>
+</html>

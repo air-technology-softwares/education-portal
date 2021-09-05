@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="./javaScript.js"></script>
+
+        <title>Air Technology</title>
+        <link rel="icon" href="https://image.airtechnology.in/icon.png"/>
+        <link rel="styleSheet" href="./Style.css"/>
+    </head>
+
+    <body class="class">
+        <div class="title">
+            <h1>Class</h1>
+        </div>
+
+        <div class="classcont">
+            <center>
+            <button class="clformate" id="ask" onclick="ask()">Ask To Join</button>
+        </center>
+            <div class="cstudent" id="cstudent">
+                <iframe allow="camera;microphone" class="call" src="https://meet.jit.si/Air Technology-Education-srdf5632486183fdgf6118fgdv61dfdg62986grvd64"></iframe>
+                
+                <div class="clbtn">
+                <button class="clformate" onclick="location.reload()">Reconnect</button>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button class="cloformate" onclick="window.location = 'Dashboard'">Leave</button>
+            </div>
+            </div>
+
+            <div class="cteacher" id="cteacher">
+
+                <iframe allow="camera;microphone" class="call" src="https://meet.jit.si/Air Technology-Education-srdf5632486183fdgf6118fgdv61dfdg62986grvd64"></iframe>
+
+                <div class="clbtn">
+                    <button class="clformate" onclick="location.reload()">Reconnect</button>
+                    <br>
+                    <br>
+                    <button class="cloformate" onclick="window.location = 'Dashboard'">Leave</button>
+                    <br>
+                    <br>
+                    <input id="stuid" placeholder="Std UID" required/>
+                    <br>
+                    <br>
+                    <button class='clformate' onclick="classstart()">Start Class</button>
+                    <br>
+                    <br>
+                    <button class="cloformate" onclick="classclose()">End Class</button>
+                    <br>
+                    <br>
+                    <button class="cloformate" onclick="classclose()">Not Complete</button>
+
+                </div>
+
+            </div>
+
+            <div class="nobook" id="nobook">
+                <center>
+                    <h1>Sorry! No Class Found</h1>
+                    <br>
+                    <br>
+                    <p>
+                        We Did Not Find Your Class Kindly Book 1.
+                    </p>
+                </center>
+            </div>
+
+            <div class="notstart" id="nostart">
+                <center>
+                <h1>Class Booked</h1>
+                <br>
+                <br>
+                <p>
+                    Your Class Is Book But Your Teacher Has Not Yet Started It.
+                </p>
+            </center>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,218 @@
+body.dashboard, body.book, body.profile, body.class, body.project
+{
+background-image: url('https://image.airtechnology.in/Background/3.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+div.login
+{
+    display: block;
+    text-align: center;
+    background-color: gray;
+    height: 100%;
+}
+
+div.forgot
+{
+    display: none;
+    text-align: center;
+    background-color: gray;
+    height: 100%;
+}
+
+div.create
+{
+    display: none;
+}
+
+div.cont
+{
+    background-color: white;
+    height: 500px;
+    width: 500px;
+    margin-left: 33%;
+    border-radius: 50px;
+}
+
+div.title
+{
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 20px;;
+}
+
+div.dashcont
+{
+    text-align: center;
+}
+
+div.teacher
+{
+    display: none;
+}
+
+div.student
+{
+    display: none;
+}
+
+button.load
+{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    height: 50px;
+}
+
+div.time
+{
+margin-left: -550px;
+}
+
+div.next
+{
+    margin-left: 770px;
+    margin-top: -500;
+}
+
+div.clbtn
+{
+    margin-left: 900px;
+    margin-top: -400px;
+}
+
+div.cstudent
+{
+    display: none;
+}
+
+div.cteacher
+{
+    display: none;
+}
+
+div.nobook
+{
+    display: none;
+}
+
+div.notstart
+{
+    display: none;
+}
+
+div.prstudent
+{
+    display: none;
+}
+
+div.prteacher
+{
+    display: none;
+}
+
+button.bformate
+{
+    background-color: blue;
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+iframe.call
+{
+    height: 500px;
+    width: 700px;
+    margin-top: -30px;
+}
+
+button.clformate
+{
+    border: none;
+    background-color: blue;
+    height: 50px;
+    width: 300px;
+    color: white;
+}
+
+button.cloformate
+{
+    border: none;
+    background-color: red;
+    height: 50px;
+    width: 300px;
+    color: white;
+}
+
+button.cloformate:hover
+{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+button.clformate:hover
+{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+button.bformate:hover
+{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+a:hover
+{
+cursor: pointer;
+}
+
+input.formate
+{
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    font-size: 150%;
+    border-radius: 30%;
+    border-width: 2px;
+}
+
+button.formate
+{
+    background-color: blue;
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    width: 70%;
+    height: 11%;
+    border-radius: 10px;
+}
+
+button.formate:hover
+{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+button.dformate
+{
+    background-color: blue;
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    width: 200;
+    height: 40;
+    border-radius: 10px;
+}
+
+button.dformate:hover
+{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-storage.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+     <script src="./javaScript.js"></script>
+
+        <title>Air Technology</title>
+        <link rel="icon" href="https://image.airtechnology.in/icon.png"/>
+        <link rel="styleSheet" href="./Style.css"/>
+    </head>
+
+    <body class="dashboard">
+        <button class="load" onclick="dashLoad()" id="load">Load My DashBoard</button>
+        <div class="student" id="student">
+
+        <div class="title">
+            <h1>Dashboard</h1>
+        </div>
+
+        <div class="dashcont">
+            <br>
+            <a href="Project">
+            <button class="dformate">Project</button>
+
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="Book">
+            <button class="dformate">Book Class</button>
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="Class">
+            <button class="dformate">Join Class</button>
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="Profile">
+            <button class="dformate">Profile</button>
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a onclick="userOut()">
+            <button class="dformate">Sign Out</button>
+        </a>
+    </div>
+
+</div>
+
+<div class="teacher" id="teacher">
+
+    <div class="title">
+        <h1>Dashboard</h1>
+    </div>
+
+    <div class="dashcont">
+        <br>
+        <a href="Project.html">
+        <button class="dformate">Project</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="Book">
+        <button class="dformate">Book Class</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="Class">
+        <button class="dformate">Start Class</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="Profile">
+        <button class="dformate">Profile</button>
+    </a>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a onclick="userOut()">
+        <button class="dformate">Sign Out</button>
+    </a>
+</div>
+
+</div>
+    </body>  
+
+    <script>
+        window.dashLoad();
+    </script>
+</html>
